@@ -1,15 +1,54 @@
 +++
+# About/Biography widget.
+
 date = "2016-04-20T00:00:00"
 draft = false
-title = "about"
-section_id = 0
+
+widget = "about"
+
+# Order that this section will appear in.
 weight = 0
+
+# List your academic interests.
+[interests]
+  title = "Interests"
+  interests = [
+    "Artificial Intelligence",
+    "Internet of Things",
+    "Futurism",
+    "Learning/Teaching",
+    "Business Development",
+    "Research",
+    "Project Management"
+  ]
+
+# List your qualifications (such as academic degrees).
+[education]
+  title = "Education"
+
+[[education.courses]]
+  course = "BEng Computer Engineering"
+  institution = "Concordia University"
+  year = 2017
+
+[[education.courses]]
+  course = "BComm Finance (not Completed)"
+  institution = "Concordia University"
+  year = 2012
+
+[[education.courses]]
+  course = "Professional Certificates"
+  institution = "MIT: Challenges of Big Data - Berkeley: Scalable Machine Learning"
+  year = 2015
+
 +++
 
-# About Me!
+# Welcome to my Website!
 
-Nick Feller, currently Software Engineer at Ericsson in Montreal Canada and Artificial Intelligence RA at Concordia University's Computational Intelligence Lab. I am primarily interested in building intuitive technologies that can serve anybody on the tech literacy spectrum. My lab/research focuses on plug and play - self adaptive engines for classification and retrieval; and my position at Ericsson focuses on product development.
+My name is Nick, I am studying at Concordia University in Computer Engineering. I also work at Ericsson as a SWE part time and do research at Concordia University's Computational Intelligence Lab under Dr Nawwaf Kharma. I'm a pretty big geek, I spend a lot of my free time learning and reading about computer science, math and philosophy.
 
-## Biography
+I grew up in Mont-Saint-Hilaire, Quebec. Both my parents immigrated from Brazil and Switzerland because of maple syrup or something. My dad was born in Switzerland, he spoke 7 languages and travelled around the world many times over. My mom was born in Taiwan and grew up in Brazil, she also speaks like 5 languages.
 
-Grew up on the south shore of Montreal in a little town called Mont-Saint-Hilaire. Swiss, Canadian, Taiwanese citizen, born to a Swiss father and a Chinese/Japanese Mother. I spent a big part of the last 3 years working with the TEDx chapter in Montreal and at Concordia, both as a curator and head organizer. I've also work with the Red-Cross division of the Swiss Armed Forces to train troop helping with civil war aid missions in Eastern Europe. Aside from coding, I spend most of my free time between camping, biking, reading philosophy, playing guitar and putting weird decorations in my room.
+I'm an insatiably curious person, I am an emeritus member of the used book store, wikipedia and quora (not really). I am also living proof that there is no physical limit to storing useless fact in your brain; sometimes I daydream about wining at Jeopardy.
+
+Favorite podcasts Radiolab, Revisionist History, the Changelog. Favorite books : Walden, Leviathan, the Prince, L'Étranger, Nichomachean Ethics, to name a few.

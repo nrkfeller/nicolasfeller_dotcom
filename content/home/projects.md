@@ -1,8 +1,16 @@
 +++
+# Projects widget.
+# Note: this widget will only display if `content/project/` contains projects.
+
 date = "2016-04-20T00:00:00"
 draft = false
+
 title = "Projects"
 subtitle = ""
-section_id = 10
-weight = 30
+widget = "projects"
+
+# Order that this section will appear in.
+weight = 40
+
 +++
+
